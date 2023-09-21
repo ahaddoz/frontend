@@ -64,7 +64,6 @@ Ik denk dat de site gebruiksvriendelijker kan worden gemaakt door de afbeeldinge
 
 Daarnaast zou het nuttig kunnen zijn om andere aspecten van webtoegankelijkheid te overwegen, zoals het gebruik van goed gestructureerde kopjes, het toevoegen van alternatieve tekst aan afbeeldingen en het vermijden van informatie die uitsluitend visueel wordt gepresenteerd.
 
-Het implementeren van deze verbeteringen zou kunnen bijdragen aan een meer inclusieve ervaring voor alle bezoekers van de website
 
 </details>
 
