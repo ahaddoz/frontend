@@ -56,7 +56,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+ Ik heb de website browhouse.nl bekeken en mijn bevindingen zijn als volgt:
+
+Ik merkte op dat de site wellicht niet volledig toegankelijk is voor mensen met beperkingen. De grote afbeeldingen lijken de snelheid van het browsen te belemmeren, waardoor het navigeren door de site enige tijd in beslag kan nemen. Het lijkt erop dat het proces om een product af te rekenen wel relatief snel en gemakkelijk verloopt.
+
+Ik denk dat de site gebruiksvriendelijker kan worden gemaakt door de afbeeldingen te optimaliseren en de bestandsgrootte te verkleinen. Dit kan helpen bij het verbeteren van de algehele gebruikerservaring en de laadtijd van de pagina's.
+
+Daarnaast zou het nuttig kunnen zijn om andere aspecten van webtoegankelijkheid te overwegen, zoals het gebruik van goed gestructureerde kopjes, het toevoegen van alternatieve tekst aan afbeeldingen en het vermijden van informatie die uitsluitend visueel wordt gepresenteerd.
+
+Het implementeren van deze verbeteringen zou kunnen bijdragen aan een meer inclusieve ervaring voor alle bezoekers van de website
 
 </details>
 
@@ -68,10 +76,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdownmenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -94,7 +102,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Zineb          | Cayna              |  Danisha    | student 4        |
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |

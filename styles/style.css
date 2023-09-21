@@ -29,3 +29,56 @@
 
 /* jouw code */
 
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+@font-face {
+  font-family: 'Basic Commercial,sans-serif';
+  src: url('fonts/BasicCommercialLT-Light.ttf') format('ttf'),
+       url('fonts/mijnfont.woff') format('woff');
+}
+
+
+body {
+    font-family: 'Basic Commercial,sans-serif'            
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    letter-spacing: 0.100em
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000; /
+}
+
+.logo {
+  max-height: 5em; 
+}
+
+.cart {
+    max-height: 2em
+}
+
+
