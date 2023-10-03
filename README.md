@@ -64,6 +64,7 @@ Ik denk dat de site gebruiksvriendelijker kan worden gemaakt door de afbeeldinge
 
 Daarnaast zou het nuttig kunnen zijn om andere aspecten van webtoegankelijkheid te overwegen, zoals het gebruik van goed gestructureerde kopjes, het toevoegen van alternatieve tekst aan afbeeldingen en het vermijden van informatie die uitsluitend visueel wordt gepresenteerd.
 
+Het implementeren van deze verbeteringen zou kunnen bijdragen aan een meer inclusieve ervaring voor alle bezoekers van de website
 
 </details>
 
@@ -95,27 +96,34 @@ Daarnaast zou het nuttig kunnen zijn om andere aspecten van webtoegankelijkheid 
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het maken van de HTML voor mijn project vond ik in eerste instantie vrij eenvoudig. Ik had de neiging om meteen met de CSS aan de slag te gaan, omdat ik moeite had om me voor te stellen hoe de uiteindelijke pagina eruit zou moeten zien. Mijn doel was om het zo snel mogelijk te laten lijken op de originele website, maar dit leidde tot veel tijdverlies, omdat ik vastliep in mijn CSS. Uiteindelijk besloot ik om door te gaan met het verfijnen van de HTML en de CSS even te laten rusten. Dit gaf me meer duidelijkheid en controle over het uiteindelijke resultaat van mijn project.
+  
+  <img src="readme-images/article-screenshot.png" width="375px" alt="screenshot html">
+
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Zineb          | Cayna              |  Danisha    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+Zineb:       
+          
+  - Is het handig om table en Article te gebruiken?
+  - Zit mijn breakdown schets goed in elkaar?
+  - Mijn CSS is niet goed gekoppeld 
+ - Wat kan ik het beste gebruiken voor de shop artikelen?
+ 
+ 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+ Tijdens het voortgangsgesprek zijn de volgende belangrijke punten besproken die relevant zijn voor mijn procesverslag:
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+- Het gebruik van <span> om elementen te verbergen die wel door een screenreader moeten worden voorgelezen.
+- Het creëren van een formulier met specifieke elementen zoals input type="email". Het werd benadrukt dat formulieren vaak complex kunnen zijn en extra aandacht vereisen.
+- De implementatie van een knop voor het hamburgermenu die boven de navigatie moet worden geplaatst.
+- Het gebruik van de a[aria-current="page"] attribuut om aan te geven aan een screenreader en zoekmachines op welke pagina de gebruiker zich bevindt. Dit kan bijvoorbeeld worden toegepast in een hamburgermenu, en de visuele weergave kan worden aangepast met behulp van CSS.
+- Het advies om geen <article> elementen te gebruiken, maar eerder te kiezen voor <list> of <section>. Er werd benadrukt dat <article> een bijzonder element is en dat in dit geval <list> beter geschikt is voor de shop.
+    
+Deze besproken punten vormen belangrijke richtlijnen voor het verdere verloop van het project en zullen worden geïmplementeerd om de toegankelijkheid en bruikbaarheid van de website te waarborgen.
 </details>
 
 
