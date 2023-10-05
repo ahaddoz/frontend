@@ -136,17 +136,51 @@ Deze besproken punten vormen belangrijke richtlijnen voor het verdere verloop va
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Het werken met CSS-selectoren en het creëren van responsive layouts kan een uitdagende taak zijn. Ik merk dat ik soms moeite heb met het selecteren van specifieke elementen in mijn HTML-structuur, vooral als de pagina complexer wordt.
+
+Het concept van Flexbox en Grid-layouts voegt een extra laag van complexiteit toe. Hoewel ze krachtige tools zijn om een responsieve website te bouwen, kan het lastig zijn om ze correct toe te passen, vooral als het ontwerp zowel op mobiel als desktop moet werken.
+
+Het idee van "Mobile First" is cruciaal, maar het vergt wat gewenning om te denken vanuit een mobiel perspectief en dan naar een desktop-layout te schalen. Het vergt tijd en oefening om vertrouwd te raken met deze technieken.
+
+ <img src="readme-images/screenshotvoortgang2.png" width="375px" alt="screenshot html">
+  <img src="readme-images/screenshotvoortgang3.png" width="375px" alt="screenshot html">
+   <img src="readme-images/screenshotvoortgang4.png" width="375px" alt="screenshot html">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Zineb:
+  - Mag ik 2 classes gebruiken voor 2 pagina’s (home & shop) Zodat mijn css niet kapot gaat op de andere pagina en mijn codes worden overschrijdt door elkaar omdat de andere pagina ook een body, main heeft. 
+- Veel css code voor 1 section, nodig of overbodig? Is mijn manier :nt-first-of-type handig? Of kan het overzichtelijker met andere selectoren?
+- “Shop producten” (h1) komt niet boven mijn grid layout te staan, van alles geprobeerd. 
+- Grid layout mobile first > hoe kan ik het op desktop anders laten zien. 
+- Blokje “the lift kit” wil ik position:absolute gebruiken maar kan ik dit in een div doen of bijvoorbeeld section in een section? Omdat het een aparte content blokje is in de section. 
+
+Caynalin:
+- Waar kan ik het beste de HOME_BACKGROUND_ART.JPG plaatsen? Header? Main?
+
+ 
+
+Main/Sectie 3
+
+- mag je meerdere h2 hebben in 1 section? (relevant voor section 3)
+
+- Hoe kan ik er voor zorgen dat een e-reader weet welke H2 hoort bij welke p binnen dezelfde sectie als er meerdere h2 en p’s zijn? (relevant voor section 3)
+
+- Heb ik bij sectie 3 correct de SPAN  en IMG gebruikt in de h2’s?
+
+- kan ik voor sectie 3 de volgende methode toepassen voor de iconen https://fontawesome.com/docs/web/dig-deeper/accessibility
+
+Zijn de iconen decoratief of een semantisch element?
+
+ 
+
+Main/sectie 4
+
+- kan ik <b> en <br> gebruiken voor readability en hoe accessable is het?
+
+- heb ik sectie 4 goed opgesteld? Img, h2, h3 , br, b, etc.
 
 
   ### Verslag van meeting
