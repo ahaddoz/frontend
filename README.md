@@ -160,8 +160,6 @@ Het idee van "Mobile First" is cruciaal, maar het vergt wat gewenning om te denk
 Caynalin:
 - Waar kan ik het beste de HOME_BACKGROUND_ART.JPG plaatsen? Header? Main?
 
- 
-
 Main/Sectie 3
 
 - mag je meerdere h2 hebben in 1 section? (relevant voor section 3)
@@ -175,13 +173,23 @@ Main/Sectie 3
 Zijn de iconen decoratief of een semantisch element?
 
  
-
 Main/sectie 4
 
 - kan ik <b> en <br> gebruiken voor readability en hoe accessable is het?
 
 - heb ik sectie 4 goed opgesteld? Img, h2, h3 , br, b, etc.
 
+Hidde:
+
+- Is het gebruik van een media query voor responsive font sizes een goed idee?
+- Hoe kan ik het beste het main element indelen? ik heb nu een section met kleinere sections erin.
+- Hoe kan ik het beste het grid-template vormgeven zodat deze responsive is? ik probeer namelijk een max-height te gebruiken maar dit lukt niet helemaal.
+- Ik gebruik nu veel percentages als schaal. Is dat wenselijk?
+
+Danisha:
+
+- Mijn achtergrond heeft een soort overlay foto, hoe kan ik dit het beste toepassen?
+- Hoe kan ik de afbeelding groottes aanpassen zonder de hele foto gelijk te vervormen?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
