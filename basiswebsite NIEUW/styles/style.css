@@ -1,0 +1,439 @@
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+:root {
+	/* startje */
+	--color-primary:white;
+	--color-secundary:black;
+  --color-third:#F3F3F3;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+@font-face {
+  font-family: 'BasicCommercial';
+  src: url("../fonts/BasicCommercialLT-Light.ttf'") format('truetype'),
+       url("../fonts/BasicCommercialLT-Light.woff2") format('woff2');
+}
+
+
+body {
+    font-family: 'BasicCommercial';           
+    font-size: 1em;
+    margin:0;
+    line-height: 1;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+header p {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.375em 0.688em;
+  background-color: var(--color-third);
+  margin:0;
+
+}
+
+nav {
+  display: flex;
+  gap: 1.375em;
+}
+
+nav > a {
+  width: 100%;
+  padding-left: 1.375em;
+  margin: 0.938em 0;
+}
+
+nav img {
+  Object-fit: contain
+}
+
+nav > ul {
+  display: flex;
+  margin:0 1em;
+  padding:0;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 22px;
+}
+
+nav button {
+    width: 20px;
+    /* Reset all default stylings */
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  /****************/
+/* main image */
+/****************/
+
+body main section:first-of-type {
+  position: relative;
+   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+body main section:first-of-type img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+body main section:first-of-type h1,
+body main section h2,
+body main section button {
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  z-index: 1; /* Zorg ervoor dat de tekst bovenop de afbeelding staat */
+ 
+}
+
+body main section:first-of-type h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+body main section:first-of-type h2 {
+  padding-bottom: 6em;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+body main section:first-of-type button {
+  margin-top: 4em;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+/****************/
+/* The lift Kit section */
+/****************/
+
+body section:first-of-type img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  margin: 0.5em;
+}
+
+
+body section:first-of-type h1 {
+  padding-top: 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  position: relative;
+  left: 2em; 
+  font-size: 2em;
+
+}
+
+body section:first-of-type p {
+  font-size: 1em;
+  position: relative;
+  left: 4em; 
+
+}
+
+body section:first-of-type button {
+  margin-top: 1em;
+  margin-bottom: 6em;
+  background-color: var(--color-secundary); /* ZWART*/
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: var(--color-primary); /* WIT*/
+  position: relative;
+  left: 5em; 
+}
+
+/* SECTION SHOP PRODUCTEN */
+
+body section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+body section:nth-of-type(2) img {
+  max-width: 100%; /* Zorg ervoor dat de afbeeldingen niet breder zijn dan de container */
+  flex: 0 0 calc(50% - 0.5em); /* Maak de afbeeldingen 50% breed met een tussenruimte van 0.5em */
+  box-sizing: border-box; /* Zorgt ervoor dat de marge binnen de opgegeven breedte blijft */
+}
+body section:nth-of-type(2) h2 {
+  margin: 0 0 17.5px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+body section:nth-of-type(2) ul {
+  list-style: none;
+  padding: 0;
+}
+
+body section:nth-of-type(2) img {
+  max-width: 100%;
+}
+
+body section:nth-of-type(2) p {
+  margin: 0.5em 0;
+}
+
+body section:nth-of-type(4) a {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: red;
+}
+
+/* SECTION OVER ONS */
+
+body section:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+body section:nth-of-type(4) img {
+  max-width: 100%;
+}
+
+body section:nth-of-type(4) h2{
+  margin: 2em 0;
+  padding-left: 2em;
+}
+
+
+body section:nth-of-type(4) p{
+  font-size: 1em;
+  padding-left: 3em;
+}
+
+body section:nth-of-type(4) button {
+margin-top: 1em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: em 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  align-self: flex-start; /* Plaats de knop aan de linkerkant */
+  padding: 0.5em 1em; /* Voeg wat ruimte toe rondom de tekst in de knop */
+  margin-left: 4em;
+}
+
+/* SECTION Studio Behandelingen */
+
+body section:nth-of-type(5)
+{position: relative;
+  display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+}
+body section:nth-of-type(5) img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+body section:nth-of-type(5) h1,
+body section:nth-of-type(5) p,
+body section:nth-of-type(5) button {
+  position: absolute;
+  text-align: center;
+  color: #000;
+  padding-bottom: 3em;
+ 
+}
+
+body section:nth-of-type(5) h1 {
+  font-size: 2em;
+  color: var(--color-secundary); /* ZWART*/
+}
+
+body section:nth-of-type(5) p {
+  font-size: 1em;
+  padding-top: 3em;
+  text-align: left;
+}
+
+body section:nth-of-type(5) button {
+  margin-top: 4em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+/* SECTION INSTAGRAM */ 
+
+body section:nth-of-type(6) h2 {
+  color: #000;
+  font-size: 1em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8em 0;
+}
+
+body section:nth-of-type(6) ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  list-style: none;
+  padding: 0;
+}
+
+body section:nth-of-type(6) li {
+  grid-column: span 2;
+}
+
+body section:nth-of-type(6) img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* SECTION Lees over ons */ 
+
+body section:nth-of-type(7) h2 {
+  color: #000;
+  font-size: 1em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8em 0;
+}
+
+body section:nth-of-type(7) ul {
+  display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+body section:nth-of-type(7) li {
+  flex: 1;
+}
+
+body section:nth-of-type(7) img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  gap: 10em;
+}
+
+/* SECTION 3 Afbeeldingen */ 
+
+body section:nth-of-type(8) img {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* SECTION Abonneren */ 
+
+body section:nth-of-type(9) h2 {
+  color: #000;
+  font-size: 1em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+
+body section:nth-of-type(9) p {
+  font-size: 1em;
+  padding-top: 1em;
+  text-align: center; /* Centreer de tekst in het element */
+
+}
+
+body section:nth-of-type(9) form {
+  text-align: center; /* Centreer de inhoud van het formulier */
+  max-width: 20em; /* Stel een maximale breedte in voor het formulier */
+  margin: 0 auto; /* Centreer het formulier op de pagina */
+}
+
+body section:nth-of-type(9) input {
+  width: 100%; /* Maak het invoerveld zo breed als de ouder (het formulier) */
+  box-sizing: border-box; /* Voorkom dat de padding en rand de breedte beïnvloeden */
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: 400;
+  color: grey;
+}
+
+body section:nth-of-type(9) button {
+  width: 100%; /* Maak de knop zo breed als de ouder (het formulier) */
+  margin-top: 1em;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 10em;
+}
+
+
+footer ul {
+  display: block;
+  text-align: left; /* Zet de tekst uitlijning links */
+}
+
+footer li {
+  display: block;
+  margin-bottom: 3em;
+  list-style: none;
+  color: #000;
+}
+
+footer section:nth-child(2) {
+  text-align: right; /* Zet de tekst uitlijning rechts voor het tweede gedeelte */
+}
